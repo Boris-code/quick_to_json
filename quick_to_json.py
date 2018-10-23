@@ -1,7 +1,8 @@
 import spider.utils.tools as tools
 
+
 def main():
-    contents = tools.read_file('to_json.txt', readlines = True)
+    contents = tools.read_file('to_json.txt', readlines=True)
 
     json = {}
     for content in contents:
@@ -13,10 +14,12 @@ def main():
 
         result = tools.get_info(content, regex)
         result = result[0] if isinstance(result[0], tuple) else result
-        json[result[0]] = result[1].strip()
+        try:
+            json[result[0]] = eval(result[1].strip())
+        except:
+            json[result[0]] = result[1].strip()
 
     print(tools.dumps_json(json))
-
 
 
 if __name__ == '__main__':

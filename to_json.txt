@@ -1,0 +1,10 @@
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: zh,en;q=0.9,zh-CN;q=0.8
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: __jsluid=f66b0dafc9ff5b14f96a706bb5c2342a; bdshare_firstime=1552963882128; UM_distinctid=169e6a8625ac70-00a135fac34124-12316d51-1fa400-169e6a8625bb87; __utma=64561212.2003727664.1554352989.1554352989.1554352989.1; __utmz=64561212.1554352989.1.1.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; cn_46168f154657cd00338b_dplus=%7B%22distinct_id%22%3A%20%22169e6a8625ac70-00a135fac34124-12316d51-1fa400-169e6a8625bb87%22%2C%22%24_sessionid%22%3A%200%2C%22%24_sessionTime%22%3A%201554352995%2C%22%24dp%22%3A%200%2C%22%24_sessionPVTime%22%3A%201554352995%7D; CNZZDATA320139=cnzz_eid%3D161612340-1554525629-http%253A%252F%252Fwww.bidchance.com%252F%26ntime%3D1554525629; BAIDU_SSP_lcr=https://www.baidu.com/link?url=0t89z6D92QjEToDfP0yR8h_ZokxXgNXW4f-dReykmCy&wd=&eqid=9c619e320005a742000000025cc52424; Hm_lvt_2751005a6080efb2d39109edfa376c63=1554689600,1554964022,1555552449,1556423733; reg_referer="aHR0cDovL3d3dy5iaWRjaGFuY2UuY29tLw=="; LXB_REFER=www.baidu.com; Cookies_Userid=""; Cookies_Key=""; JSESSIONID=C4D6427952F5A485C0D5A1D134427B02; Hm_lpvt_2751005a6080efb2d39109edfa376c63=1556433197; Cookies_token=2533a199-81d2-449b-8398-9ed784bcfb40
+Host: www.bidchance.com
+Pragma: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36

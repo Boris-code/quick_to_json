@@ -6,17 +6,16 @@ def main():
 
     json = {}
     for content in contents:
-        if content == '\n':
+        content = content.strip()
+        if not content or content.startswith(':'):
             continue
 
-        content = content.strip()
-        regex = ['(:?.*?):(.*)', '(.*?):? +(.*)', '([^:]*)']
+        regex = "([^:\s]*)[:|\s]*(.*)"
 
-        result = tools.get_info(content, regex)
-        result = result[0] if isinstance(result[0], tuple) else result
-        try:
-            json[result[0]] = eval(result[1].strip())
-        except:
+        result = tools.get_info(content, regex, fetch_one=True)
+        if result[0] in json:
+            json[result[0]] = json[result[0]] + '&' + result[1]
+        else:
             json[result[0]] = result[1].strip()
 
     print(tools.dumps_json(json))
